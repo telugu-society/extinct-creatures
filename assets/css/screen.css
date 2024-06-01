@@ -697,6 +697,7 @@ h4,
 h5,
 h6 {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #00ab6b;
 }
 
 .article-post .h1,
@@ -909,4 +910,12 @@ iframe {
 .lazyimg[data-srcset] {
     opacity: 0;
     transition: opacity .25s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #00ab6b;
 }
